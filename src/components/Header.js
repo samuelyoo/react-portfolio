@@ -7,7 +7,7 @@ function Header() {
         <div className="container my-auto">
             <div className="row">
                 <div className="col-lg-10 mx-auto">
-                    <h1 className="text-uppercase">Welcome to Samuel Page</h1>
+                    <h1 className="text-center">While ( !(succeed = try() ));</h1>
                 <hr />
                 </div>
             </div>

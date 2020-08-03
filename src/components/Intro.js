@@ -11,7 +11,7 @@ function Intro() {
                         I am Samuel Yoo
                     </h2>
                     <hr className="my-4"/>
-                    <p className="introContent">Hi, I am a Full-Stack Developer with a mechanical engineering background! This is my playground github page!</p>
+                    <p className="introContent">Hi, I am a Full-Stack Developer with a mechanical engineering background!<br /> This is my playground github page!</p>
                     <a href={process.env.PUBLIC_URL +"../assets/documents/resume_SamuelYoo.pdf"} target="_blank"> <button  className=" btnTheme js-scroll-trigger">Check Out Resume</button></a>
                 </div>
             </div>

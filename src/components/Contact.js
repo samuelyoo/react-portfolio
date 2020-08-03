@@ -1,6 +1,17 @@
 import React from "react";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+
+class App extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            email:'',
+            message:''
+        }
+    }
+}
+
 function Contact() {
   return (
     <section id="contactInfo">
@@ -9,7 +20,7 @@ function Contact() {
                 <div className="col-lg-8 mx-auto text-center">
                     <h2 className="sectionHead">Let's Get In Touch</h2>
                     <hr className="my-4"/>
-                    <p className="mb-5">Hi, I open to any project and tutoring, building web, and app. Feel free to contact me via email. Samuel</p>
+                    <p className="mb-5">Hi, I open to any project and tutoring, building web, and app.<br /> Feel free to contact me via email.<br />  - Samuel</p>
                 </div>
             </div>
             <div className="row text-center mx-auto iconBox">
@@ -28,15 +39,15 @@ function Contact() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    {/* <form action="{https://formspree.io/xeqrpnoo}" method="POST">
+                    <form onSubmit="{https://formspree.io/xeqrpnoo}" method="POST">
                         <label> <span> Your email:</span>
-                            <input type="text" name="_replyto" className="form-control">
+                            <input type="text" name="_replyto" className="form-control" />
                         </label>
                         <label> <span> Your message:</span>
                             <textarea name="message" className="form-control"></textarea>
                         </label>
                         <button className="btnTheme" type="submit">Send</button>
-                    </form> */}
+                    </form>
                 </div>
             </div>
         </div>
